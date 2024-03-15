@@ -1,7 +1,7 @@
 ---
-title: "Magna Nullam"
+title: "Bella"
 date: "2024-02-05T13:25:17-05:00"
-image: "/images/pic04.jpg"
+image: "/images/watercolor/bella.jpg"
 weight: 2
 ---
 

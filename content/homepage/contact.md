@@ -4,10 +4,8 @@ id: "contact"
 date: "2024-02-05T13:19:46-05:00"
 weight: 4
 section_type: "section"
-image: ""
+image:  /images/about/JLSdotcom.jpg
 class: "four"
-
 ---
-Elementum sem parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nuncorci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.
-
+Have a project in mind? Want to discuss a custom order tailored to your specific needs? We're here to help! Feel free to reach out to us using the contact information provided below. We look forward to hearing from you and discussing how we can bring your ideas to life!
 {{< form >}}

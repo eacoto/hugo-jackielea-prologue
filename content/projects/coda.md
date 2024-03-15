@@ -1,7 +1,7 @@
 ---
-title: "Dolor Penatibus"
+title: "Coda"
 date: "2024-02-05T13:24:42-05:00"
-image: "/images/pic06.jpg"
+image: "/images/watercolor/coda2.jpg"
 weight: 3
 ---
 
