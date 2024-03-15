@@ -1,0 +1,13 @@
+node_modules
+exampleSite/public
+exampleSite/resources
+.publish
+.nova
+.DS_Store
+.hugo_build.lock
+*.content
+/resources
+/public.DS_Store
+public/
+.sass-cache/
+.vscode/

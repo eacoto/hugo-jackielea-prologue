@@ -1,0 +1,6 @@
+baseURL: http://localhost:1313/ # todo: change site url.
+title: change me  # todo: change site name.
+defaultContentLanguage: "en"
+theme: eternity
+googleAnalytics: "" # todo: set your analytics id.
+
