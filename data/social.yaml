@@ -1,0 +1,21 @@
+
+social:
+  - name: "Twitter"
+    url: "/"
+    icon: "fa-twitter"
+  - name: "Facebook"
+    url: "/"
+    icon: fa-facebook-f
+  - name: "Instagram"
+    url: "/"
+    icon: "fa-instagram"
+  - name: "LinkedIn"
+    url: "/"
+    icon: "fa-linkedin"
+  - name: "Github"
+    url: "/"
+    icon: "fa-github"
+
+main:
+    title: "Jane Doe"
+    subtitle: "Hyperspace Engineer"

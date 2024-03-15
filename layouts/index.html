@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ range where site.RegularPages "Type" "homepage" }}
+
+        {{ if (eq .Params.section_type "home")  }}
+          {{ partial "sections/intro" . }}
+        {{ end}}
+        
+        {{ if (eq .Params.section_type "project")  }}
+          {{ partial "sections/portfolio" . }}
+        {{ end}}
+        
+        {{ if (eq .Params.section_type "section")  }}
+          {{ partial "sections/section" . }}
+        {{ end}}
+    
+    {{ end }}
+{{ end }}

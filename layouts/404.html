@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section id="{{.Params.id }}" class=" {{ .Params.class }}">
+  <div class="container">
+    <header>
+      <h2>{{ .Params.Title }}</h2>
+    </header>
+
+    <a href="#" class="image featured"
+      ><img src="{{.Params.image}}" alt=""
+    /></a>
+    <p>{{.Content}}</p>
+  </div>
+  {{ end }}
+</section>

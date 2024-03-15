@@ -1,0 +1,32 @@
+{{ $data := index .Site.Data.social }}
+<!-- Header -->
+<div id="header">
+  <div class="top">
+    <!-- Logo -->
+    <div id="logo">
+      {{ $avat := resources.Get "images/avatar.jpg"}}
+      <a href="/">
+        <span class="image avatar48">
+          <img src="{{ $avat.RelPermalink }}" alt="" />
+        </span>
+        <h1 id="title">{{ $data.main.title }}</h1>
+        <p>{{ $data.main.subtitle }}</p>
+      </a>
+    </div>
+    <!-- Nav -->
+    {{ partial "body/navbar" . }}
+  </div>
+
+  <!-- Social Icons -->
+  <div class="bottom">
+    <ul class="icons">
+      {{- range $data.social }}
+      <li>
+        <a href="{{ .url }}" class="icon brands {{ .icon }}">
+          <span class="label">{{.name }} </span></a
+        >
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

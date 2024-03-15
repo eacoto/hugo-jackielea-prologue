@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html
+  lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+  <head>
+    {{ partial "head/metadata" . }} {{ partial "head/css" . }}
+  </head>
+  <body class="is-preload">
+    {{ partial "body/header.html" . }}
+    <main id="main">{{ block "main" . }}{{ end }}</main>
+    {{ partial "body/footer.html" . }} {{ partial "head/scripts.html" . }}
+  </body>
+</html>
